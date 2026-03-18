@@ -196,6 +196,8 @@ Open a Pull Request
 
 For queries, feedback, or collaboration opportunities:
 
-LinkedIn
+LinkedIn: https://www.linkedin.com/in/shreya-tiwari-520b692b3/
 
-Email
+Email: shreyatiwari0801@gmail.com
+
+GitHub: https://github.com/TiwariShreya05
