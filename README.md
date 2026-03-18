@@ -1,4 +1,3 @@
-
 🎬 Movie Recommendation System
 
 A Machine Learning-based Movie Recommendation System that provides personalized movie suggestions by analyzing content similarity and user preferences. This project demonstrates the practical implementation of recommendation algorithms used in modern streaming platforms.
