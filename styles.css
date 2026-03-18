@@ -1,0 +1,129 @@
+/* =========================
+   Grid / Recommendations
+   ========================= */
+.carousel-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 movies per row */
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+.carousel-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    padding: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(229,9,20,0.5);
+}
+
+.carousel-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+}
+
+.carousel-card-title {
+    margin-top: 0.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+
+
+/* =========================
+   Body & App Background
+   ========================= */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1a1a1a, #111);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.stApp {
+    min-height: 100vh; /* Full viewport height */
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-bottom: 4rem; /* Add bottom padding to account for fixed footer */
+}
+
+/* =========================
+   Header
+   ========================= */
+.main-header {
+    font-family: 'Anton', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 1.5rem 0 0.5rem 0;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #B22222 0%, #FF4C4C 50%, #FF7F7F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.35);
+}
+
+.main-header .emoji {
+    background: none;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: initial;
+    color: initial;
+    text-shadow: none;
+}
+
+.subtitle {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+/* =========================
+   Carousel / Recommendations
+   ========================= */
+/* Removed the flex-based carousel styles to switch to grid layout */
+
+.recommendations-header {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    color: #fff;
+}
+
+/* =========================
+   Footer
+   ========================= */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #aaa;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+    border-top: 1px solid #333;
+    background: linear-gradient(to bottom, #1a1a1a, #111); /* Match body background */
+    z-index: 10; /* Ensure it stays on top */
+}
