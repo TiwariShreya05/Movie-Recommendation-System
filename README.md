@@ -6,6 +6,9 @@ A Machine Learning-based Movie Recommendation System that provides personalized 
 
 https://dms.licdn.com/playlist/vid/v2/D4D05AQGzST9zbSybxw/mp4-640p-30fp-crf28/B4DZvkeN7ZKUBs-/0/1769064690294?e=1774450800&v=beta&t=I8e90wPx7Td9xUVVkraNh3Km9ViBb557jh8qWVafV1A
 
+<img width="1180" height="255" alt="image" src="https://github.com/user-attachments/assets/6dda8f15-c270-40b6-b547-55e67f8b224f" />
+
+
 📌 Overview
 
 With the exponential growth of digital content, users often struggle to find relevant movies. This system addresses the problem by recommending movies based on similarity metrics derived from movie metadata such as genre, cast, and overview.
