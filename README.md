@@ -160,9 +160,9 @@ Returns a list of recommended movies
 
 Example:
 
-Input: Avatar  
+Input: Avatar 
+
 Output: Similar movies based on content features
-📊 Results
 
 Generates relevant and personalized movie recommendations
 
@@ -182,21 +182,7 @@ User authentication and personalized profiles
 
 Real-time user feedback and rating system
 
-🤝 Contributing
-
-Contributions are welcome. Please follow these steps:
-
-Fork the repository
-
-Create a new branch (feature/your-feature-name)
-
-Commit your changes
-
-Open a Pull Request
-
 📬 Contact
-
-For queries, feedback, or collaboration opportunities:
 
 LinkedIn: https://www.linkedin.com/in/shreya-tiwari-520b692b3/
 
