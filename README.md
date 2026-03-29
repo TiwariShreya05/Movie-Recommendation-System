@@ -138,7 +138,7 @@ Helps identify movies with similar content
 
 ⚙️ Installation & Setup
 1. Clone the Repository
-git clone https://github.com/your-username/movie-recommendation-system.git
+git clone https://github.com/TiwariSheya05/movie-recommendation-system.git
 2. Navigate to Project Directory
 cd movie-recommendation-system
 3. Install Dependencies
