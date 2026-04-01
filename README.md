@@ -8,7 +8,7 @@ A content-based ML system that suggests personalized movie recommendations by an
 
 With the explosion of digital content, finding relevant movies is overwhelming. This system solves that by computing similarity scores between movies and recommending the most relevant ones based on a user's input.
 
----
+---   
 
 🎥 Demo video
 
