@@ -2,7 +2,7 @@
 
 A content-based ML system that suggests personalized movie recommendations by analyzing metadata — genre, cast, keywords, and overview.
 
----
+--- 
 
 ## 📌 Project Overview
 
