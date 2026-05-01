@@ -9,7 +9,7 @@ def get_trailer_url(movie_id):
 
     for v in data.get("results", []):
         if v["type"] == "Trailer" and v["site"] == "YouTube":
-            return f"https://www.youtube.com/embed/{v['key']}?autoplay=1"
+            return f"https://www.youtube.com/embed/{v['key']}?autoplay=1"    
 
     return None
 
