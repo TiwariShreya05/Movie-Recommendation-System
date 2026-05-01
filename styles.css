@@ -3,7 +3,7 @@
    ========================= */
 .carousel-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 movies per row */
+    grid-template-columns: repeat(4, 1fr); /* 4 movies per row */   
     gap: 1.5rem;
     padding: 1rem 0;
 }
