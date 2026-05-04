@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "YOUR_TMDB_API_KEY"
+API_KEY = "YOUR_TMDB_API_KEY" 
 
 def get_trailer_url(movie_id):
     """Fetch YouTube trailer URL using TMDB API.""" 
