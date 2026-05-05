@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import requests
 import streamlit.components.v1 as components 
-from requests.exceptions import RequestException
+
 
 TMDB_API_KEY = "522a3b9f8596353a8a28fbb4dc6a5071"
 
